@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.openModalBtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 23px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    
+    outline: none;
+    cursor: pointer;
+
+
+}
+.modal{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,.25);
+    display: none;
+
+}
+.modalBox{
+       width: 400px;
+       margin: auto;
+       background-color: white;
+       padding: 20px;
+       margin-top: 20px;
+       display: none;
+       position: relative;
+       
+}
+.btnClose{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
